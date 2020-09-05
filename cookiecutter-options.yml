@@ -1,0 +1,9 @@
+default_context:
+    project_name: "flask-rest"
+    app_name: "root_app"
+    python_version: "3.7"
+    admin_user_username: "yassir"
+    admin_user_email: "yassir@admin.com"
+    admin_user_password: "yassir"
+    use_celery: "no"
+    wsgi_server: "uwsgi"
