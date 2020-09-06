@@ -21,7 +21,7 @@ def init():
     from root_app.models import User
 
     click.echo("create user")
-    user = User(username="yassir", email="yassir@admin.com", password="yassir", active=True)
+    user = User(username="yarafat", email="yarafat@admin.com", password="yarafat", active=True)
     db.session.add(user)
     db.session.commit()
     click.echo("created user admin")

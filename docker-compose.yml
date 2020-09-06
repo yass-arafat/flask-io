@@ -9,9 +9,8 @@ services:
     env_file:
       - ./.flaskenv
     environment:
-      - DATABASE_URI=sqlite:////db/root_app.db
+      - DATABASE_URI=postgresql://postgres:root@192.168.0.103:5432/pillardb
     volumes:
       - ./root_app:/code/root_app
-      - ./db/:/db/
     ports:
       - "5000:5000"
